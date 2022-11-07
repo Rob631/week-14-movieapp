@@ -1,0 +1,82 @@
+body{
+  background-color: #141414;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  color: goldenrod;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type='radio'] {
+  display: none;
+  color: goldenrod
+}
+
+.star {
+  cursor: pointer;
+  transition: color 200ms;
+  color: white;
+}
+
+.card{
+  position: relative;
+  transition: transform 0.2s
+}
+
+.card:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.card{
+  padding: 30px;
+  width: 25rem;
+}
+
+.comment-flexbox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.comment-text {
+  margin: 12px 0;
+  font-size: medium;
+  font-weight: 600;
+  color: midnightblue;
+}
+
+.input-box{
+  height: 75px;
+  width: 300px;
+  background-color: goldenrod;
+  border-radius: 2px;
+  color: ivory;
+}
+
+.comment-button{
+  height: 40px;
+  width: 100px;
+  background-color: midnightblue;
+  color:goldenrod;
+  font-size: 1.05rem;
+  margin-top: 10px;
+  border-radius: 2px;
+  border-style: none;
+  cursor: pointer;
+}
+
+.comment-container {
+  height: 75px;
+  width: 300px;
+  background-color:goldenrod;
+  border-radius: 2px;
+  margin: 10px 0;
+  word-break: break-all;
+  color:ivory
+}
+
+
+  
